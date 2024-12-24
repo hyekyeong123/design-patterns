@@ -5,8 +5,8 @@
 class Computer
 {
     public $_cpu;
-    public $_ram = [];
-    public $_storage = [];
+    public $_ram = []; // Memory 객체의 배열
+    public $_storage = []; // Storage 객체의 배열
 
     public function __construct()
     {
