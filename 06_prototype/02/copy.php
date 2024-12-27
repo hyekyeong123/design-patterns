@@ -13,3 +13,5 @@ $obj2->setMessage("Hello world");
 // 원본 객체와 복제 객체의 메시지를 출력합니다<div class=""></div>
 echo "obj =". $obj->getMessage() ."\n";
 echo "obj2 =". $obj2->getMessage() ."\n";
+
+// 두개 다 Hello world로 출력된다.

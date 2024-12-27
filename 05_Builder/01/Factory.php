@@ -6,6 +6,7 @@ class Factory extends Builder
 {
     /**
      * 알고리즘 의존성을 주입 받습니다.
+     * 의존성을 전달받은 전략 패턴은 내부 프로퍼티에 저장되며 외부로 공개된 메서드를 통해 실행
      */    
     public function __construct($algorism=null)
     {
@@ -27,6 +28,4 @@ class Factory extends Builder
 
         return $this;
     }
-
-    
 }

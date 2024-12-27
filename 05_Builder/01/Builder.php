@@ -1,5 +1,8 @@
 <?php
 
+/**
+ * 분리한 알고리즘 객체는 다시 빌더에 전달되어 복합 객체를 생성합니다.
+ */
 abstract class Builder 
 {
     /**
@@ -19,6 +22,7 @@ abstract class Builder
         return $this;
     }
 
+    // 알고리즘 인스턴스
     public function getInstance(){
         return $this->algorism->getInstance();
     }

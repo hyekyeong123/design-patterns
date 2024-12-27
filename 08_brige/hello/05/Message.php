@@ -1,5 +1,4 @@
 <?php
-
 class Message extends Language
 {
     public function __construct($lang)

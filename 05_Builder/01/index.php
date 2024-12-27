@@ -12,7 +12,7 @@ require "ProductModel.php";
 // 알고리즘을 생성합니다.
 $algorism = new ProductModel;
 
-// 빌더 객체
+// 빌더 객체(복합 객체를 제작)
 $factory = new Factory();
 $factory->setAlgorism($algorism);
 
